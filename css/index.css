@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #4e4a4a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    min-height: 100vh;
+}
+.card
+{
+    width: 90%;
+    max-width: 450px;
+    background: linear-gradient(135deg, #6dbfc2, #53be7c);
+    margin: 50px 0;
+    padding: 35px 25px;
+    border-radius: 30px;   
+}
+.searchCont
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchCont input
+{
+    height: 50px;
+    /* width: 85%; */
+    flex: 1;
+    margin-right: 16px;
+    padding: 8px 23px;
+    border: 0;
+    outline: 0;
+    border-radius: 25px;
+    background: #f8f8f8;
+    font-size: 17px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 20px #8c9997;
+}
+.searchCont button
+{
+    height: 50px;
+    width: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    background: #f8f8f8;
+    cursor: pointer;
+    /* box-sizing: border-box; */
+    box-shadow: 4px 4px 20px #8c9997;
+}
+.searchCont button img
+{
+    width: 35%;
+}
+
+
+.errorMess p
+{
+    margin: 25px 0 0 23px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    display: none;
+}
+
+
+.weatherCont
+{
+    margin: 50px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.weatherIcon
+{
+    width: 250px;
+    margin: 0 40px;
+    display: block;
+    flex: 1;
+}
+.temp, .city
+{
+    text-align: center;
+}
+.temp
+{
+    font-size: 45px;
+}
+.city
+{
+    font-size: 30px;
+}
+
+.details
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 38px 0 20px;
+    padding: 0;
+    /* width: 340px; */
+}
+.col
+{
+    /* display: flex;
+    align-items: center;
+    text-align: left; */
+}
+.col img
+{
+    width: 60px;
+    margin: 0 0 10px 0;
+}
+.col p
+{
+    /* font-size: 18px; */
+}
+.humidity, .wind
+{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.weatherCont
+{
+    display: none;
+}
+
